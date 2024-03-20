@@ -1,0 +1,64 @@
+/* WordInput.css */
+.word-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .input-container {
+    display: flex;
+    gap: 4px;
+  }
+  
+  .input-field {
+    flex: 1;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px;
+  }
+  
+  .process-button {
+    padding: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: #731ee2;
+    border: none;
+    border-radius: 4px;
+    color: white;
+  }
+  
+  .stats-table {
+    max-width: 96px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .table-header,
+  .table-row {
+    background-color: white;
+  }
+  
+  .table-header-cell,
+  .table-data {
+    border: 1px solid #ccc;
+    padding: 4px;
+  }
+  
+  .info-container {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+  }
+  
+  .info-row {
+    display: flex;
+    gap: 4px;
+  }
+  
+  .info-label {
+    min-width: 32px;
+    font-weight: bold;
+    color: #475467;
+  }
+  
